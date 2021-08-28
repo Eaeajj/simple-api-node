@@ -1,8 +1,8 @@
 import express from 'express'
 import mongoose from 'mongoose';
 import router from "./router.js";
-import fileUpload from "express-fileupload";
 
+import fileUpload from "express-fileupload";
 
 const PORT  = process.env.PORT || 5000;
 const DB_URL = 'THERE SHOULD BE A LINK TO MONGO DB'
